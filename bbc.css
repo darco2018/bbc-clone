@@ -54,24 +54,43 @@ body {
 .sign-in_text {
     background-color: pink;
     font-size: 1.2em;    
-    font-weight: 800;
+    font-weight: 400;
     margin: 14px auto;
 }
 
 .primary-nav {
     float: left;
     background-color: green;
-    width: 50%;
+    width: 54%;
 }
 
 .primary-nav-list {
     float: left;
+    width:100%;
     background-color: yellow;
+    padding:0px;
+    margin:0px;
+    
+    /* margin: 14px auto; */
 }
 
 .primary-nav-list_link {
     display: block;
     float: left;
+    background-color: blueviolet;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    font-size: 1.2em;    
+    font-weight: 400;
+    padding:14px 12px;
+}
+.primary-nav-list_link:first-of-type {
+    width: 50px;
+    text-align: left
+}
+.primary-nav-list_link:last-of-type {
+    width: 183px;
+    text-align: left
 }
 
 .search-div {
