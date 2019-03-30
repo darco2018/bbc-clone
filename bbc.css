@@ -18,6 +18,10 @@ body {
     width: 12%;
 }
 
+.logo-list_item {
+    display: inline;
+}
+
 .sign-in {
     float: left;
     width: 17%;
