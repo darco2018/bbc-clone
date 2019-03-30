@@ -4,25 +4,47 @@ body {
 }
 
 .nav-bar {
-    
+    background-color: red;
+    padding-left: 12%;
+    padding-right: 12%;
+    height: 50px;
+
+
 }
 
 .logo {
-    
+    float: left;
+    background-color: grey;
+    width: 12%;
 }
 
 .sign-in {
-
+    float: left;
+    width: 17%;
+    background-color: brown;
 }
 
 .primary-nav {
+    float: left;
+    background-color: green;
+    width: 50%;
+}
 
+.primary-nav-list {
+    float: left;
+    background-color: yellow;
+}
+
+.primary-nav-list_link {
+    display: block;
+    float: left;
 }
 
 .search-div {
-
+    float: right;
+    background-color: blue;
 }
 
 #search-input {
-    
+    background-color: skyblue;
 }
