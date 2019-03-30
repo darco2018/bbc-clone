@@ -18,7 +18,7 @@ body {
     padding:0px;
     float: left;
     background-color: grey;
-    width: 96px;
+    width: 110px;
     
 }
 
@@ -37,7 +37,9 @@ body {
     color: white;
     background-color: black;
     border: 2px solid white;
-    padding:0px;
+    padding-left:2px;
+    padding-right:2px;
+    padding-top:px;
     padding-bottom:6px;
     width: 28px;
     height: 28px; 
@@ -100,7 +102,7 @@ body {
     padding: 0px;
     padding-left: 8px;
     margin:0px;
-    margin-right:69.5px;
+    margin-right:50.5px;
 }
 
 #search-input {
