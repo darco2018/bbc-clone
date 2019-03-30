@@ -9,18 +9,39 @@ body {
     padding-left: 12%;
     padding-right: 12%;
     height: 50px;
-
-
+    text-align: center;
 }
 
 .logo {
+    margin: 0px;
+    margin-top: 6px;
+    padding:0px;
     float: left;
     background-color: grey;
-    width: 12%;
+    width: 96px;
+    
+}
+
+.logo-list {
+    margin: 0px;
+    padding:0px;
+    float: left;
+    background-color: pink;
+   
+   
 }
 
 .logo-list_item {
-    display: inline;
+    float: left;
+    display: block;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    padding:0px;
+    padding-bottom:6px;
+    width: 28px;
+    height: 28px; 
+    font-size: 2em;
 }
 
 .sign-in {
