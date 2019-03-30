@@ -1,16 +1,15 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
-    /* font-size: 13px; */
+    font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;    
 }
 
 :root {
-
+    --topbar-font-size: 13px;
 }
 
 .topbar {
-    width: 1200px;
+    width: 1300px;
     height: 40px;
     margin: 0 auto;
     background-color: white;
@@ -27,26 +26,45 @@ body {
     float: left;
     border-right: 1px solid #CCCCCC;
     height: 100%;
-    font-size: 13px;
-    font-weight: bold;   
+    font-size: var(--topbar-font-size);
+    font-weight: bold;
 }
 
 .signin-img {
-    margin: 8px 12px auto 12px;;
+    margin: 8px 12px auto 12px;
     float: left;
 }
 
 .signin-text {
-    
     position: relative;
     top: 11px;
     margin-right: 100px;
 }
 
 .topbar-menu {
-   
     padding: 11px 16px 0 16px;
     /* controls the height of the border */
-    height: 28px; 
-    
+    height: 28px;
+}
+
+.search-box {
+    background-color: #e4e4e4;
+    border: none;   
+    font-weight: bold;
+    padding: 4.5px;
+    margin: 6px 6px 6px 16px;
+}
+
+body>div.topbar>div:nth-child(11) {
+    padding-right: 100px;
+}
+
+body>div.topbar>div:last-of-type {
+    border: none;
+}
+
+.magnifying-glass {
+    position: relative;
+    top: 8px;
+    right: 10px;
 }
