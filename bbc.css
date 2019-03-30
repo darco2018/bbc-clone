@@ -96,8 +96,18 @@ body {
 .search-div {
     float: right;
     background-color: blue;
+    text-align: left;
+    padding: 0px;
+    padding-left: 8px;
+    margin:0px;
+    margin-right:69.5px;
 }
 
 #search-input {
+    
     background-color: skyblue;
+    height: 26px;
+    width: 130%;
+    margin: 12px 0px;
+    border: none;
 }
