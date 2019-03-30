@@ -47,7 +47,15 @@ body {
 .sign-in {
     float: left;
     width: 17%;
-    background-color: brown;
+    background-color: white;
+    
+}
+
+.sign-in_text {
+    background-color: pink;
+    font-size: 1.2em;    
+    font-weight: 800;
+    margin: 14px auto;
 }
 
 .primary-nav {
