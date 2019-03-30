@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
+    /* font-size: 13px; */
+}
+
+:root {
+
+}
+
+.topbar {
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.logo {
+    margin-top: 6px;
+    margin-left: 6px;
+    margin-right: 6px;
+    float: left;
+}
+
+.topbar-section {
+    float: left;
+    border-right: 1px solid #CCCCCC;
+    height: 100%;
+    font-size: 13px;
+    font-weight: bold;   
+}
+
+.signin-img {
+    margin: 8px 12px auto 12px;;
+    float: left;
+}
+
+.signin-text {
+    
+    position: relative;
+    top: 11px;
+    margin-right: 100px;
+}
+
+.topbar-menu {
+   
+    padding: 11px 16px 0 16px;
+    /* controls the height of the border */
+    height: 28px; 
+    
+}
