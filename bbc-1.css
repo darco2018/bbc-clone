@@ -5,7 +5,6 @@ body {
 }
 
 .nav-bar {
-    background-color: red;
     padding-left: 12%;
     padding-right: 12%;
     height: 50px;
@@ -54,7 +53,6 @@ body {
 }
 
 .sign-in_text {
-    background-color: pink;
     font-size: 1.2em;    
     font-weight: 400;
     margin: 14px auto;
@@ -62,14 +60,12 @@ body {
 
 .primary-nav {
     float: left;
-    background-color: green;
     width: 54%;
 }
 
 .primary-nav-list {
     float: left;
     width:100%;
-    background-color: yellow;
     padding:0px;
     margin:0px;
     
@@ -79,9 +75,8 @@ body {
 .primary-nav-list_link {
     display: block;
     float: left;
-    background-color: blueviolet;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
     font-size: 1.2em;    
     font-weight: 400;
     padding:14px 12px;
@@ -97,7 +92,6 @@ body {
 
 .search-div {
     float: right;
-    background-color: blue;
     text-align: left;
     padding: 0px;
     padding-left: 8px;
@@ -107,7 +101,7 @@ body {
 
 #search-input {
     
-    background-color: skyblue;
+    background-color: lightgray;
     height: 26px;
     width: 130%;
     margin: 12px 0px;
