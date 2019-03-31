@@ -15,6 +15,10 @@ body {
     border: none !important;
 }
 
+.large-right-padding {
+    padding-right: 104px !important;
+}
+
 .topbar {
     width: var(--page-width);
     height: 40px;
@@ -45,11 +49,11 @@ body {
 .signin-text {
     position: relative;
     top: 11px;
-    margin-right: 100px;
+    
 }
 
 .topbar-menu {
-    padding: 11px 16px 0 16px;
+    padding: 11px 15.5px 0 16px;
     /* controls the height of the border */
     height: 28px;
 }
@@ -61,9 +65,7 @@ body {
     margin: 6px 0px 6px 16px;
 }
 
-body>header>div.topbar>div:nth-child(11) {
-    padding-right: 104px;
-}
+
 
 
 .magnifying-glass {
