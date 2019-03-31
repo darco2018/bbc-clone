@@ -61,9 +61,10 @@ body {
     margin: 6px 0px 6px 16px;
 }
 
-body>div.topbar>div:nth-child(11) {
+body>header>div.topbar>div:nth-child(11) {
     padding-right: 104px;
 }
+
 
 .magnifying-glass {
     position: relative;
