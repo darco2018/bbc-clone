@@ -49,7 +49,7 @@ body {
 .signin-text {
     position: relative;
     top: 11px;
-    
+
 }
 
 .topbar-menu {
@@ -119,7 +119,7 @@ body {
 }
 
 .lowerbar-wrapper {
-    height: 35px;
+    height: 38px;
     background-color: var(--lowerbar-bgcolor);
     margin: 0;
     padding: 0;
@@ -142,7 +142,7 @@ body {
 
 .lowerbar__item:first {
     padding-left: 0px;
-    margin-left: 0px;   
+    margin-left: 0px;
 }
 
 
@@ -156,4 +156,46 @@ body {
 
 .lowerbar__item a:hover {
     text-decoration: underline;
+}
+
+.content-wrapper {
+    background-color: lightblue;
+    width: var(--page-width);
+    margin: 0 auto;
+    padding: 0;
+    height: 500px;
+}
+
+.content-wrapper__headline--menu {
+    margin: 0;
+    padding-top: 5px;
+}
+
+.content-wrapper__headline--main {
+    font-size: 230%;
+}
+
+.media {
+    float: left;
+    width: 58%;
+    background-color: lightcoral;
+}
+
+.movies {
+    float: right;
+    width: 38%;
+    background-color: lightseagreen;
+}
+
+.media__body {
+    float: left;
+    width: 40%;
+    font-size: 1.1em;
+    line-height: 1.3em; 
+    margin-right: 5px;
+}
+
+.media__img {
+    float: right;
+    width: 57%;
 }
