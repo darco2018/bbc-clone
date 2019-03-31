@@ -9,6 +9,7 @@ body {
     --page-width: 1240px;
     --middlebar-bgcolor: #BB1919;
     --lowerbar-bgcolor: #8B1010;
+    --greyish-border: #CCCCCC;
 }
 
 .no-border {
@@ -35,7 +36,7 @@ body {
 
 .topbar-section {
     float: left;
-    border-right: 1px solid #CCCCCC;
+    border-right: 1px solid var(--greyish-border);
     height: 100%;
     font-size: var(--topbar-font-size);
     font-weight: bold;
@@ -228,11 +229,37 @@ body {
     justify-content: left;
     padding: 0 9px;
     color:#8B1010;
-    border-left: 1px solid grey;
+    border-left: 1px solid var(--greyish-border);
 }
 
-.movies {
+.module--side {
     float: right;
     width: 38%;
-    background-color: lightseagreen;
+    padding-left: 18px;
+    border-left: 1px solid var(--greyish-border);
+    /* background-color: lightseagreen; */
 }
+
+.module--side__title {
+    font-size: 2em;
+    font-weight: 500;
+
+}
+
+.media--side__img {
+    float: left;
+    margin: 4px 10px 0 10px;
+}
+
+.media--side__title {
+    
+    font-size: 1.3em;
+    margin: 0 0 0 5px;
+    padding: 0 0 4px 5px;
+}
+
+.module--side__content {
+    margin-bottom: 20px;
+
+}
+
